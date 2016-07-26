@@ -8,6 +8,8 @@ html,body{
 body {
     
     background: linear-gradient(top, #106B75 0, #E8C31C 100%) no-repeat, #E8C31C ;
+    background: -mozlinear-gradient(top, #106B75 0, #E8C31C 100%) no-repeat, #E8C31C ;
+    background: -webkit-linear-gradient(top, #106B75 0, #E8C31C 100%) no-repeat, #E8C31C ;
     
 }
 div{
