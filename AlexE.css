@@ -7,9 +7,9 @@ html,body{
 }
 body {
     
-    background: linear-gradient(to bottom, rgba(104,240,185,1) 0%, rgba(254,182,69,1) 100%) no-repeat, #E8C31C ;
-    background: -moz-linear-gradient(to bottom, rgba(104,240,185,1) 0%, rgba(254,182,69,1) 100%) no-repeat, #E8C31C ;
-    background: -webkit-linear-gradient(to bottom, rgba(104,240,185,1) 0%, rgba(254,182,69,1) 100%) no-repeat, #E8C31C ;
+    background: linear-gradient(to bottom, rgba(104,240,185,1) 0%, rgba(254,182,69,1) 100%) no-repeat, rgba(254,182,69,1) ;
+    background: -moz-linear-gradient(to bottom, rgba(104,240,185,1) 0%, rgba(254,182,69,1) 100%) no-repeat, rgba(254,182,69,1) ;
+    background: -webkit-linear-gradient(to bottom, rgba(104,240,185,1) 0%, rgba(254,182,69,1) 100%) no-repeat, rgba(254,182,69,1) ;
     
 }
 div{
