@@ -118,4 +118,3 @@ for(var i=0;i<me.stepMap.length; i++){
 }
 */
 
-type();
