@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TicTacToe</title>
+        <link rel="stylesheet" href="xo.css">
+    </head>
+    <body>
+        <div class="header"><h1>Krestiki Nooliki</h1></div>
+        <div id="stats">
+          <h2>AI Wins:</h2><h2 id="Computer"></h2>
+          <h2>Your Wins:</h2><h2 id="You"></h2></div>
+        <main>
+            <div class="modal" id="glyphSelect">
+                <h3>
+                    What would you choose?
+                </h3>
+                <div class="buttons">
+                    <button onclick="selectX()">X</button>
+                    <button onclick="selectO()">O</button>
+                </div>
+            </div>
+            <div class="modal" id="endMessage">
+                <h3 id="message">
+                   
+                </h3>
+                <div class="again">
+                    <p>Again?</p>
+                    <button onclick="cont()">Yes</button>
+                    <button onclick="end()">No</button>
+                </div>
+            </div>
+            <table id="tiles">
+                <tr>
+                    <td class="tile" id="1" onclick = "set(1)"></td>
+                    <td class="tile" id="2" onclick = "set(2)"></td>
+                    <td class="tile" id="3" onclick = "set(3)"></td>
+                </tr>
+                
+                <tr>
+                    <td class="tile" id="4" onclick = "set(4)"></td>
+                    <td class="tile" id="5" onclick = "set(5)"></td>
+                    <td class="tile" id="6" onclick = "set(6)"></td>
+                </tr>
+                <tr>
+                    <td class="tile" id="7" onclick = "set(7)"></td>
+                    <td class="tile" id="8" onclick = "set(8)"></td>
+                    <td class="tile" id="9" onclick = "set(9)"></td>
+                </tr>
+                
+            </table>
+            <div class="modal" id="end">
+                <h3 id="over">
+                </h3>
+                 <button onclick="reset()">New Game</button>
+            </div>
+            
+        </main>
+    <script src="xo.js">
+      init();
+    </script>
+    </body>
+</html>
