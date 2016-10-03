@@ -22,7 +22,7 @@ function getLocation() {
 }
 
 function getIpLocation(){
-  $.getJSON('http://ipinfo.io', function(data){
+  $.getJSON('https://crossorigin.me/http://ipinfo.io', function(data){
     var arr=data.loc.split(",");
     lat=arr[0];
         lon=arr[1];
@@ -41,13 +41,15 @@ function getIpLocation(){
     }
 
 /* Search for weather by coords given in inputs */
-
+getIpWeather()  
+    var lat=document.getElementById("latitude").value;
+    var lon=document.getElementById("longitude").value;
 
 function getWeather(){
     var lat=document.getElementById("latitude").value;
     var lon=document.getElementById("longitude").value;
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&appid=e155690e9c5a721192a3d32032c12449";
+    var url = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&appid=e155690e9c5a721192a3d32032c12449";
     
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
