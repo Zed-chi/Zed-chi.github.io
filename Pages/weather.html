@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello You Weather!</title>
+        <meta charset="utf-8">
+        <link href="weather.css" rel="stylesheet">
+      <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            
+            <header>
+                <h4>hello there!</h4>
+                <button class="search" onclick="showSearch()">Let's See</button>
+            </header>
+            
+            <!-- search window -->
+            
+            
+                <div id="searchWindow" >
+                <p>latitude</p>
+                <input type="text" id="latitude">
+                <p>longitude</p>
+                <input type="text" id="longitude">
+                <br>
+                <button onclick="getWeather()">Search</button>
+                <button class="close" onclick="hideSearch()">close</button>
+                <button class="findMe" onclick="getLocation()">find me</button>
+                <button onclick="getIpLocation()">ip-info</button>  
+                </div>
+           
+ 
+            <!--weather window -->
+
+            <main>
+                <article>
+                    <div id="temperature">xx<sup>o</sup></div>
+                    <div id="icon">#</div>
+                </article>
+
+                <article>
+                    <div id="description" class="rounded">Weather</div>
+                    <div class="round">in</div>
+                    <div id="city" class="rounded">your city</div>  
+                </article>  
+            </main>
+
+        </div>
+    
+        <script src="weather.js"></script>
+    </body>
+</html>

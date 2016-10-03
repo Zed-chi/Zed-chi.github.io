@@ -1,0 +1,135 @@
+@import 'https://fonts.googleapis.com/css?family=Jaldi';
+html,body,h4{
+    padding:0;
+    margin:0;
+}
+p{
+    margin:5px;    
+}
+body {
+    font-family: 'Jaldi', sans-serif;
+    background: linear-gradient(to bottom, rgba(108,98,179,1) 0%, rgba(255,255,255,1) 51%, rgba(173,225,250,1) 69%, rgba(39,214,156,1) 100%) no-repeat;
+  height:100vh;
+}
+.container{
+    background-color:white;
+    border-radius:30px 30px 30px 30px;
+    max-width:700px;
+    margin:0 auto;
+}
+                                                /* search window */
+.close{
+    background-color:red;
+    height:50px;
+    width:70px;
+    border-radius:30px;
+    text-align:center ;
+    line-height:45px;
+}
+.findMe{
+    background-color:orange;
+    height:50px;
+    width:90px;
+    border-radius:30px;
+    text-align:center ;
+    line-height:45px; 
+}
+#searchWindow{
+    max-width:700px;
+    margin:0 auto;
+    z-index:3;
+    position:absolute;
+    background:rgba(50,50,50,0.9);
+    color:white;
+    font-size:2.2em;
+    width:100%;
+    text-align:center;
+    height:350px;
+  border-radius:5px;
+}
+input{
+    height:30px;
+    border-radius:10px;
+    font-size:.7em;
+    width:100px;
+}
+button{
+    height:50px;
+    width:70px;
+    border-radius:30px;
+    color:white;
+    background:#1ABC9C;
+    font-size:0.5em;
+}
+    
+
+                                                    /* weather window*/
+
+
+header{
+    border-radius:30px 30px 0 0;
+    background:linear-gradient(red,orange);
+    text-align:left ;
+    padding-left: 60px;
+    height:70px;
+    font-size:3em;
+    color:white;
+}
+.search{
+    background-color:yellowgreen;
+    height:3em;
+    width:6em;
+    border-radius:30px;
+    text-align:center ;
+    line-height:32px;
+    position:relative;
+    bottom: 90px;
+    left:250px;
+    font-size:0.3em;
+    display: inline-block;
+}
+#temperature{
+    background-color:yellowgreen;
+    border-radius:50%;
+    width:2em;
+    height:2em;
+    text-align:center ;
+    line-height:1.8em;
+    margin:50px auto;
+    font-size:4em;
+    color: white;
+}
+#icon{
+    background-color:yellow;
+    height:4em;
+    width:4em;
+    border-radius:50%;
+    text-align:center ;
+    line-height:4em;
+    position:relative ;
+    bottom:9em;
+    right:-4em;
+}
+.rounded{
+    background-image:linear-gradient(blue, aqua);
+    height:70px;
+    text-align:center ;
+    color:white;
+    font-size:2.5em;
+    margin-top:-40px;
+        border-radius:30px 30px; 
+}
+
+.round{
+  background-color:yellowgreen; 
+  text-align:center ;
+  position:relative ;
+  border-radius:50%;
+  height:50px;
+  width:50px;
+  color: white;
+  font-size:2.5em;
+  top:-20px;
+  margin: 0 auto;
+  line-height:50px;
+}
