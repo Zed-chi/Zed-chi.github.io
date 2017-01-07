@@ -41,9 +41,6 @@ function getIpLocation(){
     }
 
 /* Search for weather by coords given in inputs */
-getIpWeather()  
-    var lat=document.getElementById("latitude").value;
-    var lon=document.getElementById("longitude").value;
 
 function getWeather(){
     var lat=document.getElementById("latitude").value;
