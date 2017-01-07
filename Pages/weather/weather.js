@@ -46,7 +46,7 @@ function getWeather(){
     var lat=document.getElementById("latitude").value;
     var lon=document.getElementById("longitude").value;
     var xmlhttp = new XMLHttpRequest();
-    var url = "https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&appid=e155690e9c5a721192a3d32032c12449";
+    var url = "http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&appid=e155690e9c5a721192a3d32032c12449";
     
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
