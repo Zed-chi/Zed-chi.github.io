@@ -6,11 +6,9 @@ html,body{
     margin:0;
 }
 body {
-    
-    background: linear-gradient(to bottom, rgba(104,240,185,1) 0%, rgba(254,182,69,1) 100%) no-repeat, rgba(254,182,69,1) ;
+    background: linear-gradient(to bottom, rgb(198, 168, 214) 0%, rgb(67, 88, 128) 100%) no-repeat, rgba(254,182,69,1) ;
     background: -moz-linear-gradient(to bottom, rgba(104,240,185,1) 0%, rgba(254,182,69,1) 100%) no-repeat, rgba(254,182,69,1) ;
     background: -webkit-linear-gradient(to bottom, rgba(104,240,185,1) 0%, rgba(254,182,69,1) 100%) no-repeat, rgba(254,182,69,1) ;
-    
 }
 div{
     border-radius:10px;
@@ -28,7 +26,7 @@ button{
 
 .container{
     background:rbga(0,0,0,0.1);
-    max-width:600px;
+    max-width:90vw;
     margin: 100px auto;
     min-height:60%;
     position:relative;
@@ -54,8 +52,7 @@ button{
 }
 
 .info{
-    width:300px;
-   
+    width:70vw;
     margin:20px auto;
     background: rgba(255,255,255,.4);
     padding:10px;
