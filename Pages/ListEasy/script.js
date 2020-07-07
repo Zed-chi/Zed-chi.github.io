@@ -1,5 +1,5 @@
 /* GLOBAL SHIT */
-const URL = "https://worriedlazyatom--zedchi.repl.co/";
+const URL = "https://worriedlazyatom--zedchi.repl.co";
 let AUTH = "";
 
 function template(name, id) {
