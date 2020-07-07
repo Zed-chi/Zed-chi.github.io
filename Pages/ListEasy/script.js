@@ -1,5 +1,5 @@
 /* GLOBAL SHIT */
-const URL = "http://worriedlazyatom--zedchi.repl.co";
+const URL = "https://accessible-creative-law.glitch.me"
 let AUTH = "";
 
 function template(name, id) {
