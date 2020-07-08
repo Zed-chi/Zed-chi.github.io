@@ -10,6 +10,10 @@ function template(name, id) {
     </p>`;
 };
 
+function getLoader(){
+     return `<i class="loader"><img src="./loadMod.gif"></i>`
+}
+
 function setAuthHeader() {
     const code = $(".keycode__input").val();
     if (code) {
@@ -18,8 +22,10 @@ function setAuthHeader() {
 }
 
 function fetchWatchItems() {
+    $(".list").append(getLoader());
     const jqxhr = $.getJSON(`${URL}/films`)
         .done((data) => {
+            $(".loader").remove();
             for (var row of data["rows"]) {
                 $(".list").append(template(row["name"], row["id"]));
             }
